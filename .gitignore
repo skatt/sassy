@@ -11,6 +11,67 @@ prof/
 tmp/
 *.log
 
-# C library
+# Build stuff
 *.so
 *.o
+*.slo
+*.lo
+*.lai
+*.la
+*.a
+*.dylib
+
+a.out
+libsass.js
+
+# Miscellaneous stuff
+
+.DS_Store
+.sass-cache
+*.gem
+.svn/*
+
+# Configuration stuff
+
+/c_src/libsass/Makefile.in
+/c_src/libsass/aclocal.m4
+/c_src/libsass/autom4te.cache/
+/c_src/libsass/config.guess
+/c_src/libsass/config.h
+/c_src/libsass/config.h.in
+/c_src/libsass/config.log
+/c_src/libsass/config.status
+/c_src/libsass/config.sub
+/c_src/libsass/configure
+/c_src/libsass/depcomp
+/c_src/libsass/install-sh
+/c_src/libsass/libtool
+/c_src/libsass/ltmain.sh
+/c_src/libsass/m4/libtool.m4
+/c_src/libsass/m4/ltoptions.m4
+/c_src/libsass/m4/ltsugar.m4
+/c_src/libsass/m4/ltversion.m4
+/c_src/libsass/m4/lt~obsolete.m4
+/c_src/libsass/missing
+/c_src/libsass/stamp-h1
+/c_src/libsasssrc/Makefile
+/c_src/libsass/libsass/*
+
+
+
+bin/*
+.deps/
+.libs/
+
+# Final results
+
+/c_src/libsass/sass2scss/sass2scss
+/c_src/libsass/sass2scss/sass2scss.exe
+
+/c_src/libsass/sassc++
+/c_src/libsass/libsass.la
+/c_src/libsass/support/libsass.pc
+
+# Cloned testing dirs
+/c_src/libsass/sassc/
+/c_src/libsass/sass-spec/
