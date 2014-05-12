@@ -59,9 +59,9 @@ libsass.js
 
 
 
-bin/*
-.deps/
-.libs/
+/c_src/libsass/bin/*
+/c_src/libsass/.deps/
+/c_src/libsass/.libs/
 
 # Final results
 
